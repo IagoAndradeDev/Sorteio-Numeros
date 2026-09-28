@@ -18,7 +18,7 @@ body {
 
 .container {
     width: 350px;
-    height: 230px;
+    height: 330px;
     background-color: #195e63;
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin: 20px 0px;
 }
 
 .buttons button {
@@ -96,4 +96,18 @@ body {
 
 .buttons button:active {
     opacity: 0.5;
+}
+
+
+.resultado h1, .resultado p {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.resultado p {
+    font-weight: 700;
+    font-size: 30px;
 }
