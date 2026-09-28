@@ -9,8 +9,8 @@ function gerarValor() {
         return
     }
 
-    if (valorMinimo > valorMaximo) {
-        alert("Valor minimo não pode ser maior que valor maximo!")
+    if (valorMinimo >= valorMaximo) {
+        alert("Valor minimo não pode ser maior ou igual ao valor maximo!")
         return
     } 
 
